@@ -1,0 +1,57 @@
+body {
+    
+}
+
+
+ .progress{
+    width:0%;
+    position:fixed ;
+ top:0;
+    left:0;
+    height:10px;
+    background:linear-gradient(to right, #ff00ef,#0effee,#0feefa,#f8fff8);
+    
+}
+section{
+    margin:20px;
+ line-height:25px;
+ text-align:justify ;
+ font-size:12px;
+}
+
+header{
+    text-align:center   ;
+    font-size:10px;
+    margin-top:1.5rem;
+}
+header h1 span{
+    color:#00F8FF;
+ 
+}
+.div{
+    display:grid;
+    
+}
+
+.btn{
+    padding:1rem;
+   border-radius:10px;
+  border:0;
+  background-color:coral;
+  
+  
+    animation:animate 1s linear infinite ;
+}
+
+
+@keyframes animat{
+    
+
+   100%{
+        transform:scale(1.2);
+        
+    }
+    
+    
+    
+}
